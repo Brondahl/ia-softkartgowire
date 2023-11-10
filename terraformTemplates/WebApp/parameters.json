@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "8c6bede9-410c-4a76-b338-bb77eac2e1b1"
+        },
+        "resourceGroupName": {
+            "value": "ia-skgw"
+        },
+        "name": {
+            "value": "skgw-web-app"
+        },
+        "location": {
+            "value": "UK South"
+        },
+        "hostingPlanName": {
+            "value": "skgw-app-service-plan"
+        },
+        "serverFarmResourceGroup": {
+            "value": "ia-skgw"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "netFrameworkVersion": {
+            "value": "v7.0"
+        },
+        "repoUrl": {
+            "value": "https://github.com/Brondahl/ia-softkartgowire"
+        },
+        "branch": {
+            "value": "main"
+        }
+    }
+}
