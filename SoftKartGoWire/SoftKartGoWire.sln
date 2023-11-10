@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftKartGoWire", "SoftKartGoWire\SoftKartGoWire.csproj", "{EAA8E66E-A57B-497A-8C26-05431DCEFA92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAA8E66E-A57B-497A-8C26-05431DCEFA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA8E66E-A57B-497A-8C26-05431DCEFA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA8E66E-A57B-497A-8C26-05431DCEFA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA8E66E-A57B-497A-8C26-05431DCEFA92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
