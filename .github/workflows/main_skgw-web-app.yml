@@ -8,11 +8,15 @@ on:
     branches:
       - main
   workflow_dispatch:
+  
+defaults:
+  run:
+    working-directory: ./SoftKartGoWire
 
 jobs:
   build:
     runs-on: windows-latest
-
+        
     steps:
       - uses: actions/checkout@v4
 
